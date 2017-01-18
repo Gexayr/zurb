@@ -1,3 +1,40 @@
 .logo-row{
     background-color: white;
 }
+
+.iconsList li {
+    margin-left: -1px;
+    border: 2px solid #DA2D04;
+    border-radius: 25px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.top-bar ul{
+    background-color: #A8A8A8;
+}
+.iconsList li a{
+    color: #DA2D04;
+    text-align: center;
+    padding: 3px;
+}
+
+.top-bar-left{
+    margin-left: 54px;
+}
+
+.menu li a{
+    padding: 0px;
+}
+
+.iconsList li a{
+    color: #DA2D04;
+    text-align: center;
+    padding: 4px;
+}
+
+.top-bar{
+    background-color: #A8A8A8;
+    padding: 5px, 0, 5px, 0;
+}
