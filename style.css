@@ -2,13 +2,14 @@
     background-color: white;
 }
 
+
 .iconsList li {
-    margin-left: -1px;
+
     border: 2px solid #DA2D04;
     border-radius: 25px;
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 27px;
+    height: 27px;
 }
 
 .top-bar ul{
@@ -17,24 +18,81 @@
 .iconsList li a{
     color: #DA2D04;
     text-align: center;
-    padding: 3px;
+    padding: 2px;
 }
 
 .top-bar-left{
     margin-left: 54px;
 }
 
-.menu li a{
-    padding: 0px;
+
+.top-bar-right{
+    margin-right: 54px;
+}
+
+.menuList li a{
+   font-size: 12px;
+    color: #DA2D04;
+    padding-bottom: 0;
+    padding-top: 7px;
+
 }
 
 .iconsList li a{
     color: #DA2D04;
     text-align: center;
-    padding: 4px;
+    padding: 2px;
+
 }
 
-.top-bar{
+.topmenu{
     background-color: #A8A8A8;
-    padding: 5px, 0, 5px, 0;
+    padding: 5px;
+}
+
+.row1{
+    padding: 0;
+}
+
+#main-menu li a{
+    color:#504c49;
+    padding-top:50px;
+    padding-bottom:50px;
+
+
+}
+.logomenu li a{
+    padding-left:0px;
+    padding-right:0px;
+}
+.logomenu li{
+    padding-left:0px;
+    padding-right:0px;
+}
+.blog{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+ a:after {
+    border-top-style: none;
+    border-style: none;
+     display: none;
+}
+
+.top-bar ul > li.has-dropdown a:after {
+    content: "";
+    display: none;
+    width: 0;
+    height: 0;
+    border:0;
+    border-color: none;
+    border-left-style: none;
+    margin-right: 0;
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
