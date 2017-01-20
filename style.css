@@ -54,10 +54,10 @@
     padding: 0;
 }
 
-#main-menu li a{
+.main-menu li a{
     color:#504c49;
-    padding-top:50px;
-    padding-bottom:50px;
+    padding-top: 20px;
+    padding-bottom:20px;
 
 
 }
@@ -74,25 +74,8 @@
     font-size: 15px;
 }
 
-
-
  a:after {
-    border-top-style: none;
-    border-style: none;
-     display: none;
-}
-
-.top-bar ul > li.has-dropdown a:after {
-    content: "";
-    display: none;
-    width: 0;
-    height: 0;
-    border:0;
-    border-color: none;
-    border-left-style: none;
-    margin-right: 0;
-    margin-top: 0;
-    position: absolute;
-    top: 0;
-    right: 0;
+    /*border-top-style: none !Important;*/
+    border-style: none !Important;
+     /*display: none !Important;*/
 }
